@@ -1,1 +1,70 @@
+.container{
 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+   
+    background-color: rgb(209, 207, 207);
+    padding: 30px;
+    
+}
+.data{
+    margin-left: 40px;
+    display: flex;
+    flex-flow: column wrap;
+}
+.type{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.percentage{
+    padding-top: 10px;
+}
+.left1{
+    display: flex;
+    flex-flow: row wrap;
+   
+}
+p{
+    font-size: 17px;
+}
+h1{
+    padding-bottom: 0;
+    margin-bottom: 5px;
+}
+.rightline{
+    background-color: blue;
+    width: 100px;height: 5px;
+}
+.box1{
+   background-color: white;
+    /* height: 470px; */
+    padding: 20px;
+}
+.box2{
+    background-color: white;
+    display: flex;
+    flex-flow: column wrap;
+   
+    padding-left: 20px;
+}
+.type{
+    margin-bottom: 10px;
+}
+.progress{
+    width: 100%;
+    background-color: rgb(193, 190, 190);
+    height: 5px;
+    margin-top: 15px;
+}
+.oneskill{
+    margin: 10px;
+}
+.actualprogress{
+    width: 90%;
+    background-color: dodgerblue;
+    height: 5px;
+    margin: 15px 0px;
+}
